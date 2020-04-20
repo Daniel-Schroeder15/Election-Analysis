@@ -20,7 +20,7 @@ uploading_file = os.path.join("Resources\election_results.csv")
 
 
 # Assign a variable to save the file to a path
-saving_file = os.path.join("analysis", "election_results.txt")
+saving_file = os.path.join("analysis", "election_analysis.txt")
 
 # 1. Initialize a total vote counter.
 total_votes = 0
@@ -202,7 +202,6 @@ with open(saving_file, "w") as text_file:
 
     # save the winning candidate's results to the text file.
     text_file.write(winning_candidate_summary)
-
 
 
 
